@@ -3,3 +3,19 @@
     margin: 0;
     padding: 0;
 }
+
+.gridContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gridContainer div {
+    flex: 1 0 calc(6.25%);
+    height: 1px;
+    padding-bottom: calc(6.25%);
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+.gridContainer div:hover {
+    background-color: red;
+}
