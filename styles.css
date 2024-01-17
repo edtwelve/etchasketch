@@ -4,10 +4,25 @@
     padding: 0;
 }
 
+body {
+    max-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+
 .gridContainer {
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
+
 .gridContainer div {
     flex: 1 0 calc(6.25%);
     height: 1px;
